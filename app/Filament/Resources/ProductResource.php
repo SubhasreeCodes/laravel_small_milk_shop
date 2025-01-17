@@ -27,7 +27,7 @@ class ProductResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\FileUpload::make('image_path')
-                    ->default('no_image_available.jpg')
+                    ->default('no_image_available.png')
                     ->image(),
                 Forms\Components\Textarea::make('description')
                     ->columnSpanFull(),

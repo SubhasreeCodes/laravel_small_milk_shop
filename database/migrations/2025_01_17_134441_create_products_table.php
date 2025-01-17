@@ -16,7 +16,7 @@ return new class extends Migration
 
             $table->string('name'); // e.g., "Full Cream Milk"
 
-            $table->string('image_path')->default('no_image_available.jpg');
+            $table->string('image_path')->default('no_image_available.png');
             
             $table->text('description')->nullable();
             
